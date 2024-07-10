@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <title>Credit Card Validator</title>
+
+</head>
+<body>
+
+    <!--header section-->
+
+    <section class="header">
+        <div class="logo">
+            <img src="logo.png" alt="E-TECH logo" class="logo-img">
+        </div>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index.html">Services</a>
+            <a href="index.html">Online Tools</a>
+            <a href="index.html">Contact Us</a>
+
+
+        </nav>
+
+    </section>
+
+    <!--header end-->
+
+
+    <section class="home">
+        <div class="slide" style="background:url(card_validator.png) no-repeat">
+            <div class="content">
+                <span>Secure, Validate, Trust</span>
+                <h3>VALIDATE & SHOP WITH CONFIDENCE</h3>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <div class="container">
+        <h1>Validate Your Card</h1>
+
+        <form id="cc-form" class="cc-form">
+            <label for="cc-number" class="cc-number">Enter Credit Card Number:</label>
+            <input type="text" id="cc-number" name="cc-number" required>
+            <div class="button-container">
+                <button type="submit">Validate</button>
+                <button type="button" id="cancel-button">Cancel</button>
+            </div>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
